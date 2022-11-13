@@ -3,7 +3,7 @@
   "version": "0.4.0",
   "main": "index.js",
   "engines": {
-    "node": "16.x"
+    "node": "12.x"
   },
   "scripts": {
     "start-dev": "nodemon --exec \"ts-node --project tsconfig.server.json backend/index.ts\" --watch \"src/**\" --watch \"backend/**\" -e ts,tsx",
