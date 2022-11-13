@@ -2,9 +2,6 @@
   "name": "spotify-listen-together-server",
   "version": "0.4.0",
   "main": "index.js",
-  "engines": {
-    "node": "19.01"
-  },
   "scripts": {
     "start-dev": "nodemon --exec \"ts-node --project tsconfig.server.json backend/index.ts\" --watch \"src/**\" --watch \"backend/**\" -e ts,tsx",
     "start": "set NODE_ENV=production && node dist/backend/index.js",
